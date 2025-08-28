@@ -1,0 +1,26 @@
+@import "./styles/variables.scss";
+
+.image-database-app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: system-ui, sans-serif;
+  color: $text;
+}
+
+.app-container {
+  background: white;
+  border: 1px solid $border;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.app-title {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.loader {
+  width: 100%;
+}
